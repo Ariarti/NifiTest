@@ -27,7 +27,56 @@
           "y" : 170.0
         },
         "processGroups" : [ ],
-        "processors" : [ ],
+        "processors" : [ {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.19.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "5b3eefed-24cb-3020-817c-bbfe83dd6b52",
+          "identifier" : "2980bf1d-f43a-378e-aaa1-12de2f1fcc81",
+          "instanceIdentifier" : "eadda5dd-018d-1000-ffff-ffffddcc2050",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "CalculateRecordStats",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 781.0,
+            "y" : 299.0
+          },
+          "properties" : {
+            "record-stats-limit" : "10"
+          },
+          "propertyDescriptors" : {
+            "record-stats-limit" : {
+              "displayName" : "record-stats-limit",
+              "identifiesControllerService" : false,
+              "name" : "record-stats-limit",
+              "sensitive" : false
+            },
+            "record-stats-reader" : {
+              "displayName" : "Record Reader",
+              "identifiesControllerService" : true,
+              "name" : "record-stats-reader",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.CalculateRecordStats",
+          "yieldDuration" : "1 sec"
+        } ],
         "remoteProcessGroups" : [ ],
         "variables" : { }
       },
