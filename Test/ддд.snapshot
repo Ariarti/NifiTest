@@ -23,10 +23,76 @@
         "name" : "дд",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 54.18915095581042,
-          "y" : 64.1458555252517
+          "x" : 168.0,
+          "y" : 176.0
         },
-        "processGroups" : [ ],
+        "processGroups" : [ {
+          "comments" : "",
+          "componentType" : "PROCESS_GROUP",
+          "connections" : [ ],
+          "controllerServices" : [ ],
+          "defaultBackPressureDataSizeThreshold" : "1 GB",
+          "defaultBackPressureObjectThreshold" : 10000,
+          "defaultFlowFileExpiration" : "0 sec",
+          "flowFileConcurrency" : "UNBOUNDED",
+          "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+          "funnels" : [ ],
+          "groupIdentifier" : "8e32a636-f1f6-3e51-a24d-5dd8278145a1",
+          "identifier" : "8931d30b-dddf-35c7-92c4-af3fe5bd0c86",
+          "inputPorts" : [ ],
+          "instanceIdentifier" : "f58e0e06-018d-1000-0000-00004d87383a",
+          "labels" : [ ],
+          "name" : "cxvxcv",
+          "outputPorts" : [ ],
+          "position" : {
+            "x" : 634.0,
+            "y" : 176.0
+          },
+          "processGroups" : [ ],
+          "processors" : [ ],
+          "remoteProcessGroups" : [ ],
+          "variables" : { },
+          "versionedFlowCoordinates" : {
+            "bucketId" : "4fe26362-8af6-4fb2-9386-56f565a224e7",
+            "flowId" : "1f2cb158-6b6d-4a2c-a7d7-a641e3dcfacd",
+            "registryUrl" : "http://nifi-registry:18080",
+            "storageLocation" : "http://nifi-registry:18080",
+            "version" : 2
+          }
+        }, {
+          "comments" : "",
+          "componentType" : "PROCESS_GROUP",
+          "connections" : [ ],
+          "controllerServices" : [ ],
+          "defaultBackPressureDataSizeThreshold" : "1 GB",
+          "defaultBackPressureObjectThreshold" : 10000,
+          "defaultFlowFileExpiration" : "0 sec",
+          "flowFileConcurrency" : "UNBOUNDED",
+          "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+          "funnels" : [ ],
+          "groupIdentifier" : "8e32a636-f1f6-3e51-a24d-5dd8278145a1",
+          "identifier" : "0fbe4637-9cf9-38cf-85b2-98c8774c269c",
+          "inputPorts" : [ ],
+          "instanceIdentifier" : "f5931e7f-018d-1000-0000-000028309a25",
+          "labels" : [ ],
+          "name" : "cxvxcv",
+          "outputPorts" : [ ],
+          "position" : {
+            "x" : 1072.0,
+            "y" : 176.0
+          },
+          "processGroups" : [ ],
+          "processors" : [ ],
+          "remoteProcessGroups" : [ ],
+          "variables" : { },
+          "versionedFlowCoordinates" : {
+            "bucketId" : "4fe26362-8af6-4fb2-9386-56f565a224e7",
+            "flowId" : "1f2cb158-6b6d-4a2c-a7d7-a641e3dcfacd",
+            "registryUrl" : "http://nifi-registry:18080",
+            "storageLocation" : "http://nifi-registry:18080",
+            "version" : 1
+          }
+        } ],
         "processors" : [ ],
         "remoteProcessGroups" : [ ],
         "variables" : { }
