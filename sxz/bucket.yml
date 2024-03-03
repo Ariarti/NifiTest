@@ -1,0 +1,5 @@
+flows:
+  7d503f34-a55f-476f-ab3e-5a3f7ce8cd2f: {ver: 1, file: ewdwed.snapshot, comments: '',
+    author: 'CN=localhost, OU=NIFI', created: 1709498709110, flowName: ewdwed, flowDesc: ''}
+layoutVer: 1
+bucketId: d44a3c03-802e-4a7c-ab74-e7704628b997
